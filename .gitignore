@@ -1,0 +1,23 @@
+# Ignore specific folders
+/data/
+/models/LLaVA/data/
+/models/LLaVA/checkpoints/
+**/__pycache__/
+**/wandb/
+
+# Ignore file types
+*.pyc
+*.log
+*.tmp
+*.ckpt
+*.pth
+*.zip
+*.tar.gz
+*.bin
+*.model
+# LLaVA heavy artifacts
+models/LLaVA/checkpoints/
+models/LLaVA/wandb/
+models/LLaVA/data/IIIT5K/
+models/LLaVA/data/txt_db/
+models/LLaVA/data/IIIT5K-Word_V3.0.tar.gz

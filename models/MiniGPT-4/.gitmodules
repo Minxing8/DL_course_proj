@@ -1,0 +1,3 @@
+[submodule "vicuna-7b"]
+	path = vicuna-7b
+	url = https://github.com/thekevinscott/vicuna-7b.git
