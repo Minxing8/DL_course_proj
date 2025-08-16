@@ -1,0 +1,33 @@
+name: llavaft
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - cudatoolkit=11.8           # match your system CUDA
+  - pip
+  - numpy>=1.24,<1.26
+  - pydantic
+  - sentencepiece>=0.1.99
+  - tokenizers=0.15.1
+  - transformers=4.37.2
+  - accelerate=0.21.0
+  - pytorch=2.1.2
+  - torchvision=0.16.2
+  - scikit-learn=1.2.2
+  - einops=0.6.1
+  - timm=0.6.13
+  - gradio=4.16.0
+  - gradio-client=0.8.1
+  - httpx=0.24.0
+  - uvicorn
+  - fastapi
+  - markdown2
+  - requests
+  - ninja
+  - deepspeed=0.12.6
+  - wandb
+  - pip:
+    - peft               # latest
+    - bitsandbytes       # for 4/8-bit quant
+    - shortuuid
